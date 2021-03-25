@@ -2,9 +2,9 @@
 
 ### Author: Mark Duenas
 
-[Test Reports](https://github.com/MarkDuenas/bearer-auth/actions)
+[Test Reports](https://github.com/MarkDuenas/auth-api/actions)
 
-[Deployed Link](https://bearer-auth-md.herokuapp.com/)
+[Deployed Link](https://auth-api-md.herokuapp.com/)
 
 [Pull Req](https://github.com/MarkDuenas/bearer-auth/pull/1)
 
