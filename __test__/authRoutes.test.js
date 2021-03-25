@@ -3,10 +3,14 @@
 const supergoose = require('@code-fellows/supergoose');
 const server = require('../src/server.js')
 const mockRequest = supergoose(server.app);
+process.env.SECRET = 'secret';
+
+
+
 
 let user = {
-  username: 'jdulce',
-  password: 'password'
+  username: 'jake',
+  password: '12345'
 }
 
 describe('ROUTE TESTS', () => {
@@ -18,7 +22,7 @@ describe('ROUTE TESTS', () => {
 
   it('should sign in with basic authentication headers logs in a user and sends an object with the user and the token to the client', async () => {
     const response = await mockRequest.post('/signin')
-    .auth('jdulce','password')
+    .auth('jake','12345')
     expect(response.body).toBeDefined();
     expect(response.body.token).toBeDefined();
   });
