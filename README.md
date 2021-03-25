@@ -6,7 +6,7 @@
 
 [Deployed Link](https://auth-api-md.herokuapp.com/)
 
-[Pull Req](https://github.com/MarkDuenas/bearer-auth/pull/1)
+[Pull Req](https://github.com/MarkDuenas/auth-api/pull/2)
 
 
 ## Set up
